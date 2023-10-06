@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: top, center;
+    align-items: center;
+    height: 600px;
+    margin: 0;
+    width: 100%;
+    }
+    
+    li{
+    list-style: none;
+    }
+    
+    a{
+    text-decoration: none;
+    color: white;
+    }
+    
+    header{
+    width: 800px;
+    height: 100px;
+    flex-direction:row;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: black;
+    font-size: 15px;
+    color: white;
+    font-family: arial;
+    }
+    
+    .logo{
+    width: 20%;
+    height:30px;
+    }
+    
+    ul{
+    width:217%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    }
+    
+    main{
+    width: 800px;
+    height:600px;
+    }
+    
+    footer{
+    background: black;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: arial;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 200px;
+    position: fixed;
+    }
+    
+    h1{
+    margin-top: 100px;
+    text-align: center;
+    }
+    
+    img{
+    max-width: 100%;
+    display:flex;
+    }
+    
+    .flex{
+    display:flex;
+    flex-wrap:wrap;
+    max-width: 800px;
+    max-height: 300px;
+    margin:0 auto;
+    }
+    
+    .flex > div {
+    flex: 1 1 100px;
+    margin: 10px;
+    }
+    
+    p{
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
+    
+    p, img{
+    margin:0;
+    padding: 0;
+    }
